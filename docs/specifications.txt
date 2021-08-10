@@ -1,0 +1,42 @@
+V 0.1:
+
+  Technical specifications:
+    Java / Renderscript
+
+  Storage related specifications: 
+    Load an image from storage: .png, .jpg, .jpeg, etc (image files)
+
+
+  Edit Tools:
+    Crop
+    Pencil (Size, weight)
+    Eraser
+  
+
+  Effects:
+    
+    Global effects:
+      ToGray
+      Contrast
+      Saturation
+      Brightness
+      Histogram equalization
+
+    Convolution:
+      Kernels:
+	Blur:
+	  Gaussian (Parameters = sigma, kernel size)
+	  Mean
+	  ...
+	Edge detection 
+	  Laplace 
+	  Sobel
+	  Prewitt
+	  ...
+      
+    FFT:
+      PictureToFourier (FFT)
+      FourierToPicture (IFFT)
+
+
+    
