@@ -1,2 +1,2 @@
-# image_processing_lab
-Image processing app for android
+# chord_prediction
+Chord prediction for several instruments using Deep Learning approaches
